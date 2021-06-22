@@ -1,0 +1,49 @@
+
+.project-des h1{
+    line-height: 1.5;
+    letter-spacing: 0px;
+    padding-top: 10%;
+    font-family: 'Abhaya Libre', serif;
+    text-transform: capitalize;
+    -webkit-font-smoothing: antialiased;
+}
+.media-body{
+    padding-bottom: 5%;
+}
+.media-body p{
+    margin-top: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: .004em;
+    line-height: 1.65;
+    color: #000;
+}
+.bg {
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* BACK BUTTON */
+.bt-back {
+    text-align: left;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.3);
+    padding: 2%;
+}
+.bt-back a {
+    font-family: 'Work Sans',sans-serif;
+    line-height: 1.65;
+    letter-spacing: .004em;
+    -webkit-font-smoothing: antialiased;
+    color: #171717;
+    text-transform: uppercase;
+    font-size: .9rem;
+    text-decoration: none;
+}
+.bt-back a:hover{
+    color: #DF4833;
+    text-decoration: underline;
+}

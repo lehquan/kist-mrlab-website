@@ -1,0 +1,331 @@
+
+/* BACKGROUND BANNER */
+.bg {
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* html { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+   */
+/* test */
+.tittle-header{
+    margin-top: 5%;
+}
+.tittle-header .lab-header {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-size: 6vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .004em;
+    line-height: 1.2;
+}
+.tittle-header h6 {
+    margin-top: 14%;
+    font-family: 'Work Sans',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1vw;
+    text-align: center;
+    color: #fff;
+    letter-spacing: .008em;
+    line-height: 1.65;
+    justify-content: center;
+    width: 30%;
+}
+/* end test */
+
+.centered h1, h6 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.centered h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-size: 7vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .004em;
+    line-height: 1.2;
+}
+.centered h6 {
+    margin-top: 5%;
+    font-family: 'Work Sans',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1vw;
+    text-align: center;
+    color: #fff;
+    letter-spacing: .008em;
+    line-height: 1.65;
+    justify-content: center;
+    width: 30%;
+}
+
+/* test */
+.star {
+    visibility: hidden;
+}
+
+.fadeIn {
+    -webkit-animation: animat_show 0.8s;
+    animation: animat_show 0.8s;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show{
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+.sess {
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.sess h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 4vw;
+    text-align: left;
+    text-transform: uppercase;
+    color: #444;
+}
+.sess p {
+    color: #444;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2vw;
+    line-height: 1.65;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.sess img {
+    border-radius: 50%;
+    width: 90%;
+}
+.bt-learnmore{
+    margin-top: 5%;
+    border: none;
+    padding: 18px 25px;
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size:  0.7rem;
+    cursor: pointer;
+    background: #d2973b;
+    width: 50%;
+}
+.bt-learnmore:hover{
+    background-color: #e4c089;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* TECHNOLOGIES */
+.para-header-center-parent .ct-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+.card-rs{
+    width: 20rem;
+    margin: auto;
+    border: none;
+    padding: 0;
+    margin-bottom: 3%;
+}
+.card-rs hr {
+    width: 19%;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #DF4833;
+}
+.card-rs a{
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.5s;
+}
+.cardrs-img{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+.cardrs-title a {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.2;
+    font-weight: 300;
+    font-style: normal;
+    color: #242120;
+    font-size: 24px;
+}
+.cardrs-text{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-size: 0.9rem;
+    color: #8c8c8c;
+}
+
+/* PARTNERS */
+.card-partners{
+    width: 12rem;
+    margin: auto;
+    border: none;
+    padding: 0;
+    box-shadow: 0px 5px 5px #f0f0f0;
+    margin-bottom: 3%;
+}
+.card-partners a{
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.5s;
+}
+
+/* RESEARCH AREAS */
+.card{
+    width: 20rem;
+    margin: auto;
+    border: none;
+    padding: 0;
+    margin-bottom: 3%;
+    box-shadow: 0px 5px 5px #f0f0f0;
+}
+.card a{
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.5s;
+}
+.card-title a{
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.2;
+    font-weight: 400;
+    font-style: normal;
+}
+.card-text{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    color: #8c8c8c;
+}
+.date_post{
+    font-family: Work Sans,sans-serif;
+    line-height: 1.65;
+    font-size: 0.8rem;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.wrapper a{
+    font-family: 'Work Sans',sans-serif;
+    text-transform: uppercase;
+    line-height: 1.65;
+    letter-spacing: .004em;
+    -webkit-font-smoothing: antialiased;
+    font-size: .9rem;
+    color: inherit;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* LATEST NEWS */
+.break-news h1 {
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: 'Work Sans',sans-serif;
+    font-size: 1rem;
+    letter-spacing: .004em;
+    line-height: 1;
+    font-weight: 500;
+    color: #242120;
+}
+.break-news hr {
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: #2a394f;
+}
+
+/* NEWSLETTERS */
+.wr-letter{
+    border-top-style: solid;
+    border-top-width: 0.5px;
+    border-color: #d8d8d8;
+}
+.wr-letter h1{
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Work Sans',sans-serif;
+    font-weight: 500;
+    letter-spacing: .004em;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #242120;
+    font-style: normal;
+}
+.wr-letter p{
+    line-height: 1.65;
+    word-break: normal;
+    text-align: center;
+    font-family: 'Work Sans',sans-serif;
+    font-size: 0.9rem;
+    margin-bottom: 3%;
+}
+.ip-letter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.email-input{
+    width: 30%;
+    font-family: 'Work Sans',sans-serif;
+    letter-spacing: .004em;
+    line-height: 1;
+    font-size: 0.8rem;
+    padding: 10px 20px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95% center;
+    border-radius: 50px;
+    border: 1px solid #a8a8a8;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}

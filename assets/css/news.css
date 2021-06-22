@@ -1,0 +1,195 @@
+.bg {
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.centered h1 {
+    font-family: 'Oswald', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 7vw;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .004em;
+    line-height: 1;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* MEDIA */
+.project{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #d8d8d8;
+    padding: 5%;
+    padding-left: 0;
+}
+.media{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: .004em;
+}
+.media-body{
+    margin-left: 1%;
+}
+.media img {
+    width: 50%;
+}
+.media-body .mt-0 {
+    cursor: pointer;
+    letter-spacing: 0;
+}
+.media-body em {
+    font-size: 0.8rem;
+    color: #8c8c8c;
+}
+.media-body .icon-reading{
+    cursor: pointer;
+    color: #d2973b;
+}
+.media-body .icon-reading:hover {
+    text-decoration: underline;
+    color: #2a394f;
+}
+.iconic {
+    color: #d2973b;
+    cursor: pointer;
+    padding-left: 0.5%;
+}
+
+/* GALLERY */
+h2 {
+    /* font-family: 'Work Sans',sans-serif; */
+    font-family: 'Cookie', cursive;
+    /* text-transform: uppercase; */
+    -webkit-font-smoothing: antialiased;
+    color: #000;
+    text-shadow:0 1px 1px #a8a8a8;
+    font-weight: 500;
+    white-space:nowrap;
+    text-decoration:none;
+    /* font-size: .8rem; */
+    font-size: 2.5vw;
+    line-height: 1;
+    letter-spacing: .004em;
+    text-align: center;
+    padding: 3%;
+}
+.tile {
+    /* width: 18vw;
+    height: 18vw; */
+    float:left;
+    transition:all 1s;
+    cursor: pointer;
+    margin: 1%;
+    position: relative;
+}
+.tile .image {
+    opacity: 1;
+    display: block;
+    width: 15%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+}
+.tile .middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.tile:hover{
+    background-color: rgb(68, 68, 68);
+}
+.tile:hover .image {
+    opacity: 0.3;
+}
+.tile:hover .middle {
+    opacity: 1;
+}
+.text {
+    font-family: 'Cookie', cursive;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: .04em;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.2;
+}
+.text-category{
+    font-family: 'Work Sans',sans-serif;
+    letter-spacing: .04em;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .7rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: 0;
+}
+.text-category-date{
+    font-family: 'Work Sans',sans-serif;
+    letter-spacing: .04em;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: .6rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: 0;
+}
+
+/* BREAKING NEWS */
+.bnews {
+    margin-top: 5%;
+    margin-bottom: 12%;
+    border-bottom-width: 5px;
+    border-bottom-style: dotted;
+    border-bottom-color: #d8d8d8;
+}
+.bnews h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #DF4833;/* color: #2a394f; */
+    line-height: 1.1;
+    word-break: normal;
+    text-align: left;
+    margin-bottom: 7%;
+    padding-bottom: 5%;
+    border-bottom-width: 5px;
+    border-bottom-style: dotted;
+    border-bottom-color: #d8d8d8;
+}
+.bnews-media {
+    font-family: 'Roboto', sans-serif;
+    color: #8c8c8c;
+    font-size: 0.8rem;
+    letter-spacing: .004em;
+    line-height: 1.65;
+    margin: 5%;
+    cursor: pointer;
+}
+.bnews-media img{
+    border-radius: 10%;
+    width: 25%;
+}

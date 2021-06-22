@@ -1,0 +1,49 @@
+.bg {
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.centered h1, h6 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.centered h6 {
+    font-family: 'Work Sans',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1vw;
+    text-align: center;
+    color: #fff;
+    letter-spacing: .008em;
+    line-height: 1.65;
+    justify-content: center;
+    width: 30%;
+}
+.centered h1 {
+    font-family: 'Oswald', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 7vw;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .004em;
+    line-height: 1;
+}
+.personal-contact-info{
+    margin-top: 5%;
+    font-family: 'Work Sans',sans-serif;
+    line-height: 1.65;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 5%;
+}
+.personal-contact-info a {
+    color: #d2973b;
+    cursor: pointer;
+}

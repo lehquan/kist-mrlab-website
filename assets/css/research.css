@@ -1,0 +1,165 @@
+.bg {
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* filter: grayscale(100%); */
+    /* filter: opacity(70%); */
+}
+.centered .header-all {
+    font-family: 'Oswald', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 7vw;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .004em;
+    line-height: 1;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 20px 0 rgba(0,0,0,.3);
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.left {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+.left .vr {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 4vw;
+    text-align: left;
+    text-transform: uppercase;
+    /* float: left; */
+    color: #fff;
+}
+.left p {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 100%;
+    letter-spacing: .04em;
+}
+
+/* RESEARCH AREAS */
+.navi nav{
+    /* padding: 1%; */
+    margin: 0;
+    padding: 0;
+}
+.navi nav a{
+    font-family: 'Work Sans',sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: .004em;
+    -webkit-font-smoothing: antialiased;
+    font-size: .8rem;
+    font-weight: 500;
+    color: #fff;
+    text-align:center;
+    width:17%;
+    float:left;
+    padding: 2%;
+    /* margin:1%; */
+    cursor:pointer;
+}
+.nav-pills .nav-link{
+    border-radius: 0;
+}
+.navi nav a:hover{
+    background-color: #df4833;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #df4833;
+}
+.para-header h1{
+    line-height: 1.5;
+    letter-spacing: 0px;
+    padding-top: 5%;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-transform: capitalize;
+    -webkit-font-smoothing: antialiased;
+    color: #1B4659;
+}
+.para-header {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #d8d8d8;
+}
+.para-header p{
+    font-family: 'Work Sans',sans-serif;
+    font-size: 0.9em; 
+    line-height: 1.65;
+    color: #000;
+}
+.para {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #d8d8d8;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+}
+.para h2 {
+    line-height: 1.5;
+    letter-spacing: 0px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-transform: capitalize;
+    -webkit-font-smoothing: antialiased;
+    color: #009ed0;
+}
+.para p{
+    font-family: 'Work Sans',sans-serif;
+    font-size: 0.9em; 
+    line-height: 1.65;
+    color: #000;
+}
+.para .media img {
+    width: 20%;
+}
+.para .media .media-body a {
+    cursor: pointer;
+    font-family: 'Work Sans',sans-serif;
+    font-weight: 500;
+    font-size: 100%;
+    color: #009ed0;
+}
+.para .media .media-body a:hover{
+    color: #df4833;
+}
+.para .media .media-body p {
+    font-size: 90%;
+}
+
+
+
+/* LOAD MORE */
+.load-more {
+    background: #d1dadd;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.3);
+    padding: 2%;
+}
+.load-more a {
+    font-family: 'Work Sans',sans-serif;
+    line-height: 1.65;
+    letter-spacing: .004em;
+    -webkit-font-smoothing: antialiased;
+    color: #171717;
+    text-transform: uppercase;
+    font-size: .9rem;
+    text-decoration: none;
+}
+.load-more a:hover{
+    color: #DF4833;
+}

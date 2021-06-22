@@ -1,0 +1,79 @@
+
+.project-des h1{
+    line-height: 1.5;
+    letter-spacing: 0px;
+    padding-top: 10%;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-transform: capitalize;
+    -webkit-font-smoothing: antialiased;
+    color: #1B4659;
+}
+.project-des h2 {
+    font-family: 'Work Sans',sans-serif;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    color: #1B4659;
+    text-shadow:0 1px 1px #a8a8a8;
+    font-weight: 500;
+    white-space:nowrap;
+    text-decoration:none;
+    font-size: 0.9rem;
+    line-height: 2.65;
+    letter-spacing: 1.2px;
+}
+.project-des h3 {
+    font-family: 'Work Sans',sans-serif;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    color: #1B4659;
+    text-shadow:0 1px 1px #a8a8a8;
+    font-weight: 400;
+    white-space:nowrap;
+    text-decoration:none;
+    font-size: 0.9rem;
+    letter-spacing: 1.2px;
+    margin-top:5%;
+}
+.project-des p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: .004em;
+    line-height: 1.65;
+    color: #000;
+}
+.para-gap{
+    margin-top: 4%;
+    margin-bottom:4%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #d8d8d8;
+}
+strong{
+    font-weight: 700;
+}
+.iconic {
+    text-shadow:0 1px 1px #a8a8a8;
+    font-size: 1.3em;
+}
+/* BACK BUTTON */
+.bt-back {
+    text-align: left;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.3);
+    padding: 2%;
+    margin-top: 5%;
+}
+.bt-back a {
+    font-family: 'Work Sans',sans-serif;
+    line-height: 1.65;
+    letter-spacing: .004em;
+    -webkit-font-smoothing: antialiased;
+    color: #171717;
+    text-transform: uppercase;
+    font-size: .9rem;
+    text-decoration: none;
+}
+.bt-back a:hover{
+    color: #DF4833;
+    text-decoration: underline;
+}
